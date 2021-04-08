@@ -12,7 +12,7 @@ namespace CoffeeShop.Models
 
         [Required]
         [StringLength(50, MinimumLength = 3)]
-        public string Name { get; set; }
+        public string Title { get; set; }
         public int BeanVarietyId { get; set; }
         public BeanVariety BeanVariety { get; set; }
 
